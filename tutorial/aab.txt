@@ -1,0 +1,453 @@
+到百度首页
+scrapy限制爬取的线程数量
+百度首页设置登录
+网页新闻知道图片视频贴吧文库地图音乐更多?
+展开相关术语
+
+c++
+
+eclipse
+
+数据结构
+
+mongodb
+展开其他人还搜
+
+动态网页
+
+node.js
+
+ruby
+
+并行处理
+展开相关程序设计语言
+
+javascript
+
+php
+
+python
+
+perl
+搜索热点
+排名	搜索指数
+1华为首次超越苹果	450074
+2手指被可乐炸骨折	395202
+3胖游客越来越多	346851
+4精神病当选村主任	345727
+5法院拍卖水性笔	332908
+6地产股集体大跌	320314
+7工商局调查拼多多	318740
+890后女司机酒驾	309520
+9华夏李君殴打员工	289730
+10草根投资爆雷	283883
+来源：百度风云榜 - 实时热点
+收起工具时间不限所有网页和文件站点内检索
+搜索工具百度为您找到相关结果约328,000个
+【Scrapy爬虫系列2】性能调优 - CSDN博客
+2016年11月27日 - 在setting.py 里面,可以把单 IP 或者单 domain 的 concurrent 线程数改成 16...Python爬虫实战:Scrapy豆瓣电影爬取 cbjcry 04-13 1932 来源:Scrapy...
+https://blog.csdn.net/zongzhiy...  - 百度快照
+为您推荐：scrapy 并发scrapy异步scrapy 性能scrapy 优化scrapy速度scrapy 设置线程数python scrapy 多线程scrapy retryscrapyd
+scrapy 设置爬取深度 (七) - CSDN博客
+2016年11月3日 - scrapy爬取深度设置 通过在settings.py中设置DEPTH_LIMIT的值可以限制爬取深度,...阅读数:40582 [Python]多线程网址爬虫:控制线程数,爬虫深度 pyth...
+https://blog.csdn.net/u0133783...  - 百度快照
+python3 网络爬虫(七)针对scrapy并发请求的一点看法(提..._CSDN博客
+2017年8月3日 - 环境:python3.4 win7 ,ubuntu 框架:scrapy本篇文章主要介绍本人在学习scrapy中遇到的一个大问题:并发请求。大家从各类博客也能看到,人家的一个爬虫程...
+https://blog.csdn.net/Fight_Hu...  - 百度快照
+scrapy可以用多线程去爬取吗? - SegmentFault 思否
+2016年7月24日 - 目前在单核cpu下测试,想多爬取一些网站,但是scrapy是基于twisted的single-threading。... 目前在单核cpu下测试,想多爬取一些网站,但是scrapy是基于twi...
+https://segmentfault.com/q/101...  - 百度快照
+多线程多进程 scrapy可以用多线程去爬取吗?_其他语言_编程问答
+2016年9月6日 - 多线程多进程 scrapy可以用多线程去爬取吗?:目前在单核cpu下测试,想多爬取一些网站,但是scrapy是基于twisted的single-threading。能否使用多线程?我的...
+www.codes51.com/itwd/3...  - 百度快照
+使用scrapy进行大规模抓取(二)
+2014年8月30日 - 能否通过修改配置解决(比如宽度优先/深度优先,限制爬取深度这些都可以通过修改配置...让爬虫运行在单独线程(see “Run scrapy crawler in a thread“,...
+www.360doc.com/content...  - 百度快照
+scrapy 抓取速度问题 - V2EX
+
+2015年10月30日 - 线程数改成 16 或者更高,我这两天发现 16 线程对...而且 scrapy 自己的调度和重试系统可以保证每个页面都...
+https://www.v2ex.com/t/232...  - 百度快照
+scrapy可以用多线程去爬取吗? - YChLu的回答 - SegmentFault 思否
+2016年7月24日 - 目前在单核cpu下测试,想多爬取一些网站,但是scrapy是基于twisted的single-threading。... 目前在单核cpu下测试,想多爬取一些网站,但是scrapy是基于twi...
+https://segmentfault.com/q/101...  - 百度快照
+多线程 - 如何利用scrapy并行抓取数据? - SegmentFault 思否
+2017年6月16日 - 如何利用scrapy并行抓取数据?多线程 scrapy haixia9060 2016年07月13日提问 关注...scrapy可以用多线程去爬取吗? 1 回答 sh中同时执行是不是多线程? ...
+https://segmentfault.com/q/101...  - 百度快照
+scrapy是自带多线程吗?-CSDN论坛
+2017年4月11日 - ? 线程中运行scrapy方法 ? Scrapy Pipeline之处理CPU密集型或阻塞型操作 ...能否通过修改配置解决(比如宽度优先/深度优先,限制爬取深度这些都可以...
+https://bbs.csdn.net/topics/39...  - 百度快照
+相关搜索
+线程数量		线程数和cpu数量		jvm线程数量
+java线程有几种状态		java线程异步写法		vb.net 线程数量
+查看线程数量		linux 一个进程 线程数量		java什么是多线程
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+下一页>
+帮助举报用户反馈首页
+博客
+学院
+下载
+GitChat
+TinyMind
+论坛
+问答
+商城
+VIP
+
+搜博主文章
+写博客
+发Chat
+登录注册
+复鹰
+大数据的掘金者
+
+RSS订阅
+原
+【Scrapy爬虫系列2】性能调优
+2016年11月27日 15:40:18
+阅读数：6603
+
+
+
+
+加快爬虫速度：
+
+在 settings.py 里把 TIMEOUT 设小点
+提高并发数（ CONCURRENT_REQUESTS ）
+瓶颈在 IO ，所以很有可能 IO 跑满，但是 CPU 没跑满，所以你用 CPU 来加速抓取其实是不成立的。不如开几个进程来跑死循环，这样 CPU 就跑满了
+在 setting.py 里面，可以把单 IP 或者单 domain 的 concurrent 线程数改成 16 或者更高，我这两天发现 16 线程对一般的网站来说根本没问题，而且 scrapy 自己的调度和重试系统可以保证每个页面都成功抓取。 
+至于分布式，前提还是被抓的服务器可以接受，在这个前提下，我有个比较笨的方法： 
+假定页面数是已知的，而且主页面的 url 是有规律的，例如 wordpress 的很多就是 domain.com/page/2000 这样的，同样的工程开 100 个进程，每个进程的 starturl 分别是 page/1 ， page/21,page/41 这样的，然后自己实现一个 stopurl ，让这 100 个进程均摊 2000 个页面。一方面速度快(假定没有物理瓶颈)，另一方面这 100 个进程相互独立，就算哪个进程挂掉，重跑的风险也被分摊了。
+动态页面最好找ajax传输的json数据，然后抓取其中需要的内容
+对于定向采集可以用正则取代xpath
+快代理还是不稳定的，如果使用额的是电信网络的话，可以试试路由重播更新IP
+快速的link extractor。python的SGMLParser实在是太慢了，使用SgmlLinkExtractor会让爬虫把大部分的时间都浪费在解析网页上，最好自己写一个link extractor(我们基于lxml写了一个，也可以用soup之类的库)。也可以用正则表达式来写link extractor，速度快，问题是不理解html语义，会把注释里的链接也包含进来。另外基于javascript重定向url也要在这里提取出来。
+默认启动的话，可以看到scrapy有10个线程。但是，进行download以及parse 等一般性操作的时候，都是单线程的——都是在同一个线程内。
+可以考虑gevent ,针对爬虫这种网络IO密集型的。效率会很高
+先去试试urllib和urllib2，熟悉一下爬虫的基本思维。然后熟悉了大概之后看看requests，这也是urllib\urllib2封装的，熟悉抓包和分析页面成分，了解POST、GET都是什么原理和实用
+scrapy异步（做过几个项目了，挺好用的）
+分布式（暂时还没涉及），redis，scrapyd
+
+
+
+参考：
+《scrapy抓取速度问题》https://www.v2ex.com/t/232070
+《同时运行多个scrapy爬虫的几种方法》http://www.cnblogs.com/rwxwsblog/p/4578764.html
+
+版权声明：本文为博主原创文章，未经博主允许不得转载。	https://blog.csdn.net/zongzhiyuan/article/details/53364749
+个人分类： Python
+相关热词： 安装scrapy  停止scrapy  scrapy脚本  scrapy协程  scrapy同步
+上一篇【Scrapy爬虫系列1】爬虫的几大问题——抛砖引玉  下一篇【TCP/IP系列1】TCP/IP经典书籍
+python3 网络爬虫（七）针对scrapy并发请求的一点看法（提速篇）
+环境：python3.4 win7 ，ubuntu 框架：scrapy本篇文章主要介绍本人在学习scrapy中遇到的一个大问题：并发请求。大家从各类博客也能看到，人家的一个爬虫程序一天能爬取数...
+想对作者说点什么？ 我来说一句
+提高scrapy的爬取速度
+ weixin_39304789
+
+ 806
+
+  我们在使用scrapy框架进行爬取的时候，爬取速度会显著影响我们的效率。
+
+scrapy多爬虫以及爬取速度
+ prog_li
+
+ 1415
+
+scrapy多爬虫以及爬取速度 主要这段时间一直使用的就是scrapy这个框架，因为公司里面需要爬取大量的网站，所以才使用了多爬虫，但是目前测试也只是几十个，一直也想不到更好的方法去同时抓取成千...
+
+提高scrapy的爬取速度 - CSDN博客
+6-15
+
+  我们在使用scrapy框架进行爬取的时候,爬取速度会显著影响我们的效率。... 爬取大量数据的时候,爬取速度显著影响着爬取用时,总结一下我在使用scrapy的时候用来...
+
+scrapy多爬虫以及爬取速度 - CSDN博客
+6-16
+
+scrapy多爬虫以及爬取速度 主要这段时间一直使用的就是scrapy这个框架,因为公司里面需要爬取大量的网站,所以才使用了多爬虫,但是目前测试也只是几十个,一直也想不到...
+
+scrapy中CONCURRENT_REQUESTS与DOWNLOAD_DELAY的联系
+ s150503
+
+ 2765
+
+简略说说scrapy中的DOWNLOAD_DELAY 与CONCURRENT_REQUESTS之间的关系
+
+如何使用scrapy爬取资源,你懂得 - CSDN博客
+7-20
+
+前言:有没有看点视频感觉到处都是广告,有没有觉得它的播放速度很慢,有没有找不到小徐.avi时候的痛苦,看完这篇文章你就是老司机了 1.安装scrapy sudo apt-...
+
+scrapy 速度优化 - CSDN博客
+5-22
+
+主要有三个设置项来控制下载器的容量:CONCURRENT_REQUESTS,CONCURRENT_REQUESTS_PER_DOMAIN和 CONCURRENT_REQUESTS_PER_IP。第一个设置项提供了一个粗略的控制,无论...
+
+爬虫总结(二)-- scrapy
+ omnispace
+
+ 4861
+
+用现成的框架的好处就是不用担心 cookie、retry、频率限制、多线程的事。这一篇把上一篇的实例用 scrapy 框架重新实现一遍。主要步骤就是新建项目 (Project) –> 定义目标（Ite...
+
+解决Scrapy性能问题——案例一（CPU饱和）
+ Q_AN1314
+
+ 4075
+
+症状：有时你增加并发水平，但是性能没有增长。下载器的利用也很充分，但是似乎每个请求的平均时间都很长。在Unix/Linux上使用top命令或者在Power Shell上使用ps或者在Windows上面...
+
+Scrapy性能分析 - CSDN博客
+7-17
+
+之前讲过(这里),当Scrapy正常运行时,下载器是瓶颈。在这种情况下,你会看到...前言:有没有看点视频感觉到处都是广告,有没有觉得它的播放速度很慢,有没有找...
+
+Scrapy性能分析 - CSDN博客
+1-9
+
+之前讲过(这里),当Scrapy正常运行时,下载器是瓶颈。在这种情况下,你会看到...前言:有没有看点视频感觉到处都是广告,有没有觉得它的播放速度很慢,有没有找...
+
+Scrapy性能调优及检测性能问题的步骤
+ Q_AN1314
+
+ 2316
+
+前面已经说过，Scrapy的瓶颈被设置在下载器这个地方。要获得最高的性能，可以从一个低的CONCURRENT_REQUESTS开始，一直增加这个值，直到达到了以下某个限制： CPU使用率达到80-90...
+
+老中医说：男人多吃这个东西，时间延长5倍
+圣代 · 顶新
+Scrapy - bilibili视频信息爬取,使用scrapy-redis分布..._CSDN博客
+6-8
+
+Scrapy - bilibili视频信息爬取,使用scrapy-redis分布式,b站抓取速度约为16核服务...//doc.scrapy.org/en/latest/topics/spider-middleware.html from redis import...
+
+使用nodejs写的小爬虫,测试速度,感觉挺快的 - CSDN博客
+5-24
+
+基于twisted的产品也很多,包括爬虫scrapy,以及很多其他的web服务器 不良信息举报 举报内容: 使用nodejs写的小爬虫,测试速度,感觉挺快的 举报原因: 色情 政治 抄袭...
+
+Python爬虫实战：Scrapy豆瓣电影爬取
+ cbjcry
+
+ 1981
+
+来源：Scrapy安装、爬虫入门教程、爬虫实例（豆瓣电影爬虫） 该例子中未使用代理和模拟浏览器，所以会导致403Forbidden，以下已优化。 代码放在附件中。   采用settings.p...
+
+线程中运行scrapy方法
+ qq_29349715
+
+ 2.4万
+
+代码如下：import threading, Queue from twisted.internet import reactor from scrapy.xlib.pydispatch ...
+
+使用scrapy进行大规模抓取 - CSDN博客
+7-24
+
+使用scrapy有大概半年了,算是有些经验吧,在这里跟大家讨论一下使用scrapy作为爬虫...也可以用正则表达式来写link extractor,速度快,问题是不理解html语义,会把注释里...
+
+Scrapy Pipeline之处理CPU密集型或阻塞型操作
+ Q_AN1314
+
+ 2737
+
+Twisted框架的reactor适合于处理短的、非阻塞的操作。但是如果要处理一些复杂的、或者包含阻塞的操作又该怎么办呢？Twisted提供了线程池来在其他的线程而不是主线程（Twisted的reac...
+
+使用scrapy+IP代理+多线程爬虫对拉钩网在杭州互联网职位信息的抓取
+ demohui
+
+ 2326
+
+本篇文章涉及到的集中比较流行的爬虫技术，包括IP代理，多线程，scrapy，cookie等，...
+
+九.scrapy项目下spiders内多个爬虫同时运行
+ beyond_f
+
+ 3732
+
+1.运行单个爬虫 from scrapy.cmdline import execute execute(('scrapy,crawl,myspd1,--nolog').split(',')) ...
+
+使用scrapy进行大规模抓取
+ kezhen
+
+ 6027
+
+原文  http://blog.chedushi.com/archives/6488 使用scrapy有大概半年了，算是有些经验吧，在这里跟大家讨论一下使用scrapy作为爬虫进行大规模抓取可...
+
+python支持多线程的爬虫
+ zhangtian6691844
+
+ 2868
+
+python是支持多线程的, 主要是通过thread和threading这两个模块来实现的，本文主要给大家分享python实现多线程网页爬虫 一般来说，使用线程有两种模式, 一种是创建线程要...
+
+
+在线程里运行scrapy的方法
+ woshizoe
+
+ 1248
+
+http://www.sharejs.com/codes/python/8400 # When you run the Scrapy crawler from a program, the co...
+
+Scrapy用Twisted异步操作Mysql
+ qq_30034925
+
+ 1556
+
+1首先在setting中配置好数据库的信息，便于修改管理MYSQL_HOST='192.168.0.2'#主机 MYSQL_DBNAME='dbname'#数据库名称 MYSQL_USER='root...
+
+scrapy pipeline 同步和异步写入数据库
+ dawning_zyh
+
+ 1388
+
+# 异步写入mysql数据库 from twisted.enterprise import  adbapi from MySQLdb import cursors class MysqlTw...
+
+Scrapy爬虫框架教程-- 抓取AJAX异步加载网页
+ qq_21989939
+
+ 238
+
+Scrapy爬虫框架教程（一）– Scrapy入门Scrapy爬虫框架教程（二）– 爬取豆瓣电影TOP250Scrapy爬虫框架教程（三）– 调试(Debugging)Spiders前言前一段时间工作...
+
+解决Scrapy性能问题——案例五（Item并发太多导致溢出）
+ Q_AN1314
+
+ 5226
+
+症状：爬虫对于每个Response都产生了多个Item，系统的吞吐量比期望的要低，并且可能会出现和前一个案例相同的下载器开/关现象。示例：这里我们假设有1000个请求，每个返回的页面有100个Item...
+
+
+解决Scrapy性能问题——案例二（含有阻塞的代码）
+ Q_AN1314
+
+ 2487
+
+症状：系统非常慢，与期望的相差很大，并且当你修改CONCURRENT_REQUESTS的值的时候，速度并没有发生变化。下载器看起来几乎是空的（比CONCURRENT_REQUESTS的值要小），scr...
+
+个人资料
+
+江南小白龙
+
+关注
+原创
+21
+粉丝
+23
+喜欢
+3
+评论
+2
+等级： 访问： 11万+ 积分： 1070 排名： 5万+
+勋章：
+ 
+最新文章
+【实时计算架构系列1】WePay如何基于谷歌云平台(GCP)和kafka实现实时流式欺诈检测
+【Spark系列8】Spark Shuffle FetchFailedException报错解决方案
+【Spark系列7】Spark如何读写hive
+【数据结构系列1】Hash_Map
+【Flink系列2】时间窗口
+个人分类
+Linux系统 2篇
+大数据分析算法 1篇
+Hadoop 2篇
+Python 8篇
+特征工程 3篇
+经典书籍 1篇
+Spark 9篇
+IntelliJ IDEA 1篇
+TCP-IP 1篇
+HTTP协议 5篇
+IT江湖 1篇
+招聘 2篇
+机器学习 2篇
+区块链 1篇
+flink 2篇
+数据结构 1篇
+Hive 1篇
+实时计算架构 1篇
+展开
+
+归档
+2017年9月 8篇
+2017年8月 7篇
+2017年4月 1篇
+2016年12月 3篇
+2016年11月 3篇
+2016年2月 3篇
+2015年11月 4篇
+2015年10月 3篇
+2015年9月 5篇
+2015年8月 3篇
+2015年7月 1篇
+展开
+
+热门文章
+【Spark系列2】reduceByKey和groupByKey区别与用法
+阅读量：46151
+
+【HTTP协议系列5】http proxy原理
+阅读量：13663
+
+【Python系列5】set和list的妙用
+阅读量：10517
+
+【Scrapy爬虫系列2】性能调优
+阅读量：6571
+
+【HTTP协议系列1】Chrome浏览器查看http头
+阅读量：4684
+
+最新评论
+【Spark系列2】reduceB...
+do_yourself_go_on：楼主你这是抄袭啊
+
+【Spark系列2】reduceB...
+do_yourself_go_on：那楼主什么时候使用groupByKey呢？
+
+
+联系我们
+客服
+请扫描二维码联系客服
+webmaster@csdn.net
+
+400-660-0108
+
+QQ客服 客服论坛
+
+关于招聘广告服务 网站地图
+
+?2018 CSDN版权所有 京ICP证09002463号
+
+百度提供支持
+
+经营性网站备案信息
+
+网络110报警服务
+
+中国互联网举报中心
+
+北京互联网违法和不良信息举报中心
+
+
+登录 注册 
+
+0
+
+
+写评论
+
+收藏
+
+微信
+
+微博
+
+QQ
+
