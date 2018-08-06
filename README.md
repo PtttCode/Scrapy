@@ -1,3 +1,3 @@
 # Scrapy
-第二级目录直接进tutorial
-mm131Spider是可以将mm131网站全部图片资源爬下来的Spider
+第二级目录直接进tutorial<br>
+其中mm131Spider是可以将mm131网站全部图片资源爬下来的Spider
